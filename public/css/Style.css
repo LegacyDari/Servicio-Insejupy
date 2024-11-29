@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.ticket-list, .ticket-form, .ticket-detail {
+    margin: 30px;
+}
+
+.ticket-list h1, .ticket-detail h1 {
+    text-align: center;
+}
+
+.ticket-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticket-list th, .ticket-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.ticket-list th {
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ticket-form label, .ticket-detail p {
+    margin: 10px 0;
+}
+
+.ticket-form input, .ticket-form textarea, .ticket-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+}
+
+.ticket-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
