@@ -1,0 +1,1 @@
+Debido a que los archivos node_modules y vendor son muy pesados decidi subirlos como .zip para que no haya complicaciones a la hora de subirlos, solamente descomprimalos (vendor tanto parte 1 como parte 2 debera de descomprimirlos en una sola carpeta) y en caso que algun archivo falte o el repositorio git los haya modificado al subirlos, le proporcionare el zip correspondiente, 
